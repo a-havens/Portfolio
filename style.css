@@ -1,0 +1,53 @@
+html {   /*makes background light green*/
+  background-color: #618b4a;
+}
+header {   /*stylizes header*/
+  background-color: #3f4531;
+  color:#1c231a;
+  font-family: fantasy;
+  font-size: 50px;
+  font-weight: 100px;
+  padding:10px;
+}
+main {    /*stylizes main elements*/
+  font-family: fantasy;
+  align-items: center;
+  text-align: center;
+  margin: 90px;
+}
+
+h2 {   /* stylizes h2 headers*/
+  font-size:40px;
+  height: 10px;
+  margin: 80px;
+}
+
+.center {    /*makes elements align center*/
+ text-align: center;
+ list-style-position: inside;
+}
+
+ol.center li {    /*makes the numbers on the contact list centered with the text*/
+ text-align: left;
+ margin-left: 45%;
+}
+
+.left {    /*makes elements align left when added to HTML*/
+  text-align:left;
+}
+
+p {    /*increases the font size for paragraph elements*/
+  font-size:20px;
+}
+
+footer {  /*stylizes footer with background color,aligns text to center, and pads the border*/
+  background-color:#7aa095;
+  padding: 10px;
+  text-align:center;
+}
+
+/*makes links change color and become more interactive*/
+a:link    { color:#000000;}
+a:visited { color:#242e0f;   }
+a:hover   { color: #415e31; }
+a:active  { color:#303e14 ;  }
