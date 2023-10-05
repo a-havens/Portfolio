@@ -49,7 +49,10 @@ footer {  /*stylizes footer with background color,aligns text to center, and pad
 /*changes h2 headers to be smaller for smaller screens*/
 @media all and (max-width: 600px) {
   h2 {
-    font-size:20px;
+    font-size:30px;
+  }
+  p {
+    font-size:15px;
   }
 }
 
