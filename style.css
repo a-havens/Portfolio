@@ -46,6 +46,13 @@ footer {  /*stylizes footer with background color,aligns text to center, and pad
   text-align:center;
 }
 
+/*changes h2 headers to be smaller for smaller screens*/
+@media all and (max-width: 600px) {
+  h2 {
+    font-size:20px;
+  }
+}
+
 /*makes links change color and become more interactive*/
 a:link    { color:#000000;}
 a:visited { color:#242e0f;   }
