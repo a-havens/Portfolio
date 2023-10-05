@@ -56,6 +56,11 @@ footer {  /*stylizes footer with background color,aligns text to center, and pad
   }
 }
 
+.group {
+display: flex;
+    flex-direction: column; /* or column */
+    margin-bottom: 100px;
+
 /*makes links change color and become more interactive*/
 a:link    { color:#000000;}
 a:visited { color:#242e0f;   }
