@@ -46,15 +46,16 @@ footer {  /*stylizes footer with background color,aligns text to center, and pad
   text-align:center;
 }
 
+img {
+  width: 100%;
+}
+
 .group {
 display: flex;
     flex-direction: row; /* or column */
 }
 
 @media all and (min-width: 800px) {
-  img {
-    width:200px;
-  }
 
 
 /*makes links change color and become more interactive*/
