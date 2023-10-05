@@ -46,20 +46,10 @@ footer {  /*stylizes footer with background color,aligns text to center, and pad
   text-align:center;
 }
 
-/*changes h2 headers to be smaller for smaller screens*/
-@media all and (max-width: 600px) {
-  h2 {
-    font-size:30px;
-  }
-  p {
-    font-size:15px;
-  }
-}
-
 .group {
 display: flex;
-    flex-direction: column; /* or column */
-    margin-bottom: 100px;
+    flex-direction: row; /* or column */
+}
 
 /*makes links change color and become more interactive*/
 a:link    { color:#000000;}
